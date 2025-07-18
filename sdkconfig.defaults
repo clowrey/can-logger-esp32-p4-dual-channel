@@ -1,0 +1,17 @@
+# ESP32 LED Blink Project - Default Configuration
+
+# Enable logging at INFO level
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_LOG_DEFAULT_LEVEL=3
+
+# Serial flasher config
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_ESPTOOLPY_FLASHSIZE="4MB"
+
+# Common ESP32 optimizations
+CONFIG_ESP32_DEFAULT_CPU_FREQ_240=y
+CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ=240
+
+# Enable Bluetooth and WiFi (disabled by default for minimal footprint)
+# CONFIG_BT_ENABLED=n
+# CONFIG_WIFI_ENABLED=n 
